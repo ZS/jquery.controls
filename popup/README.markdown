@@ -1,5 +1,7 @@
 # Demo
 
+Note that the demo below was written using the browser's default stying (which is rather ugly). A basic style sheet will be provided later to prettify things.
+
 * [Full page](http://jsfiddle.net/jookyboi/FEa5J/7/embedded/result/)
 * [JSFiddle](http://jsfiddle.net/jookyboi/FEa5J/7/)
 
