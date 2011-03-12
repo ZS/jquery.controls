@@ -104,7 +104,7 @@ If something's gone horrible wrong in your app or you'd just like to contribute 
 
 1. [jquery.browserdetect.chirp.js](https://github.com/ZS/jquery.controls/raw/master/popup/js/jquery.browserdetect.chirp.js)
 2. [jquery.qtip.chirp.js](https://github.com/ZS/jquery.controls/raw/master/popup/js/jquery.qtip.chirp.js)
-3. [https://github.com/ZS/jquery.controls/raw/master/popup/js/popup.chirp.js](https://github.com/ZS/jquery.controls/raw/master/popup/js/popup.chirp.js)
+3. [popup.chirp.js](https://github.com/ZS/jquery.controls/raw/master/popup/js/popup.chirp.js)
 
 
 
