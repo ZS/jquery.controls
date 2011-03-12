@@ -5,71 +5,65 @@
 
 Using the popup control involves two parts. You'd want to establish the popup container markup first.
 
-`
-<input class="control trigger" type="button" container="this-popup" value="Open this popup" />
+	<input class="control trigger" type="button" container="this-popup" value="Open this popup" />
 
-<div class="this-popup" style="display: none;">
-	<div class="popup">
-		<div class="content">
-			<fieldset>
-				<label for="field-name">Field name</label>
-				<input type="text" value="This is a field name" />
-			</fieldset>
+	<div class="this-popup" style="display: none;">
+		<div class="popup">
+			<div class="content">
+				<fieldset>
+					<label for="field-name">Field name</label>
+					<input type="text" value="This is a field name" />
+				</fieldset>
 
-			<fieldset>
-				<label for="">Field select</label>
-				<select>
-					<option>Field option 1</option>
-					<option>Field option 2</option>
-					<option>Field option 3</option>
-				</select>
-			</fieldset>
+				<fieldset>
+					<label for="">Field select</label>
+					<select>
+						<option>Field option 1</option>
+						<option>Field option 2</option>
+						<option>Field option 3</option>
+					</select>
+				</fieldset>
 
-			<p>
-				There is some text here which needs to be displayed in order to
-				tell the user what to do.
-			</p>
-			<p>This is another paragraph of text.</p>
+				<p>
+					There is some text here which needs to be displayed in order to
+					tell the user what to do.
+				</p>
+				<p>This is another paragraph of text.</p>
 
-		</div>
+			</div>
 
-		<div class="controls">
-			<a href="#" class="cancel">Cancel</a>
-			<input type="button" class="ok" value="OK" />
+			<div class="controls">
+				<a href="#" class="cancel">Cancel</a>
+				<input type="button" class="ok" value="OK" />
+			</div>
 		</div>
 	</div>
-</div>
-`
 
 Next, you'll wire up the control with the `popup()` function.
 
-`
-popup({
-	trigger: function() {
-		return $("input.control");
-	},
-	container: function(trigger) {
-		return $("div." + trigger.attr("container"));
-	}
-});
-`
+	popup({
+		trigger: function() {
+			return $("input.control");
+		},
+		container: function(trigger) {
+			return $("div." + trigger.attr("container"));
+		}
+	});
 
 Most of your visual configuration will be done through HTML. The popup however, is in charge of positioning your popup in relation to the trigger button/link/linkbutton. The following positions your popup to the right of the trigger button.
 
-'
-popup({
-	trigger: function() {
-		return $("input.left-control");
-	},
-	container: function(trigger) {
-		return $("div." + trigger.attr("container"));
-	},
-	position: {
-		my: "top left",
-		at: "bottom center"
-	}
-});
-'
+	popup({
+		trigger: function() {
+			return $("input.left-control");
+		},
+		container: function(trigger) {
+			return $("div." + trigger.attr("container"));
+		},
+		position: {
+			my: "top left",
+			at: "bottom center"
+		}
+	});
 
 For more examples, check out the source for the demo.
 
