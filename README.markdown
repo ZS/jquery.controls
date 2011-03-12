@@ -1,10 +1,79 @@
-# Example
+# Demo
+
 
 # Usage
 
-There are two ways to integrate the popup into production.
+Using the popup control involves two parts. You'd want to establish the popup container markup first.
 
-## Packed
+`
+<input class="control trigger" type="button" container="this-popup" value="Open this popup" />
+
+<div class="this-popup" style="display: none;">
+	<div class="popup">
+		<div class="content">
+			<fieldset>
+				<label for="field-name">Field name</label>
+				<input type="text" value="This is a field name" />
+			</fieldset>
+
+			<fieldset>
+				<label for="">Field select</label>
+				<select>
+					<option>Field option 1</option>
+					<option>Field option 2</option>
+					<option>Field option 3</option>
+				</select>
+			</fieldset>
+
+			<p>
+				There is some text here which needs to be displayed in order to
+				tell the user what to do.
+			</p>
+			<p>This is another paragraph of text.</p>
+
+		</div>
+
+		<div class="controls">
+			<a href="#" class="cancel">Cancel</a>
+			<input type="button" class="ok" value="OK" />
+		</div>
+	</div>
+</div>
+`
+
+Next, you'll wire up the control with the `popup()` function.
+
+`
+popup({
+	trigger: function() {
+		return $("input.control");
+	},
+	container: function(trigger) {
+		return $("div." + trigger.attr("container"));
+	}
+});
+`
+
+Most of your visual configuration will be done through HTML. The popup however, is in charge of positioning your popup in relation to the trigger button/link/linkbutton. The following positions your popup to the right of the trigger button.
+
+'
+popup({
+	trigger: function() {
+		return $("input.left-control");
+	},
+	container: function(trigger) {
+		return $("div." + trigger.attr("container"));
+	},
+	position: {
+		my: "top left",
+		at: "bottom center"
+	}
+});
+'
+
+For more examples, check out the source for the demo.
+
+## Packed Version
 
 The popup control depends on 2 additional jquery plugins:
 
@@ -17,13 +86,31 @@ Likewise, popup.pack.min.css contains override styles for the popup as well as t
 
 ### Download
 
-[popup.pack.min.js](https://github.com/ZS/jquery.controls/raw/master/popup/js/popup.pack.min.js)
-[popup.pack.min.css](https://github.com/ZS/jquery.controls/raw/master/popup/css/popup.pack.min.css)
+1. [popup.pack.min.js](https://github.com/ZS/jquery.controls/raw/master/popup/js/popup.pack.min.js)
+2. [popup.pack.min.css](https://github.com/ZS/jquery.controls/raw/master/popup/css/popup.pack.min.css)
 
 
-## Unpacked
+## Unpacked Version
 
+If your application already has dependencies on qtip or browserdetect, it makes no sense to include them twice. In this case, you'll want to download the missing components and include only those.
 
+### Download
+
+1. [jquery.browserdetect.min.js](https://github.com/ZS/jquery.controls/raw/master/popup/js/jquery.browserdetect.min.js)
+2. [jquery.qtip.min.js](https://github.com/ZS/jquery.controls/blob/master/popup/js/jquery.qtip.min.js)
+3. [popup.min.js](https://github.com/ZS/jquery.controls/raw/master/popup/js/popup.min.js)
+4. [jquery.qtip.min.css](https://github.com/ZS/jquery.controls/raw/master/popup/css/jquery.qtip.min.css)
+5. [popup.pack.min.css](https://github.com/ZS/jquery.controls/raw/master/popup/css/popup.pack.min.css)
+
+## Debugging and Development Version
+
+If something's gone horrible wrong in your app or you'd just like to contribute a specific feature, it helps to pull the un-minified versions to hack on.
+
+### Download
+
+1. [jquery.browserdetect.chirp.js](https://github.com/ZS/jquery.controls/raw/master/popup/js/jquery.browserdetect.chirp.js)
+2. [jquery.qtip.chirp.js](https://github.com/ZS/jquery.controls/raw/master/popup/js/jquery.qtip.chirp.js)
+3. [https://github.com/ZS/jquery.controls/raw/master/popup/js/popup.chirp.js](https://github.com/ZS/jquery.controls/raw/master/popup/js/popup.chirp.js)
 
 
 
