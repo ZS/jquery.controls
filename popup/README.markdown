@@ -2,8 +2,8 @@
 
 Note that the demo below was written using the browser's default stying (which is rather ugly). A basic style sheet will be provided later to prettify things.
 
-* [Full page](http://jsfiddle.net/jookyboi/FEa5J/9/embedded/result/)
-* [JSFiddle](http://jsfiddle.net/jookyboi/FEa5J/9/)
+* [Full page](http://jsfiddle.net/jookyboi/FEa5J/10/embedded/result/)
+* [JSFiddle](http://jsfiddle.net/jookyboi/FEa5J/10/)
 
 # Usage
 
