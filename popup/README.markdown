@@ -71,6 +71,10 @@ Most of your visual configuration will be done through HTML. The popup however, 
 
 For more examples, check out the source for the demo.
 
+## Compatibility
+
+Tested on IE7-8, Chrome 9+, Firefox 3.5+
+
 ## Packed Version
 
 The popup control depends on 2 additional jquery plugins:
