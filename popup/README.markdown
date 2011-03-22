@@ -1,3 +1,8 @@
+# Overview
+
+Popup is a simple control which wraps [Craig Thompson's excellent QTip2 plugin](http://craigsworks.com/projects/qtip2/download/) with custom styles. The idea is to have
+a popup which can be tied to a specific link, button, or page action. The control is intended for input fields but can just as well be used for informational tips or alerts.
+
 # Demo
 
 Note that the demo below was written using the browser's default stying (which is rather ugly). A basic style sheet will be provided later to prettify things.
