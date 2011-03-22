@@ -8,10 +8,26 @@ It can also be configured to force page actions to be synchronous, which is usef
 
 # Usage
 
+	var ajaxqueue = $().ajaxqueue({
+		concurrentActions: 3
+	});
+
+	ajaxqueue.addAction({
+		name: "new action",
+		type: "POST",
+		url: "../ajax/testechoaction",
+		data: {},
+		success: function(response) {
+			$('#actionqueOutput').append(response + "<br />");
+		},
+		error: function(XMLHttpRequest, textStatus, errorThrown) {
+			$('#actionqueOutput').append(textStatus + "<br />");
+		}
+	});
 
 ## Compatibility
 
-Tested on IE7-8, Chrome 9+, Firefox 3.5+
+Tested on IE6-8, Chrome 9+, Firefox 3.5+
 
 ## Minified Version
 
