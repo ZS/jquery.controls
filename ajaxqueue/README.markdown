@@ -1,5 +1,7 @@
 # Overview
 
+The Ajax Queue provides a way to keep track of concurrent and queued AJAX requests on a single webpage. 
+It can also be configured to force page actions to be synchronous.
 
 # Demo
 
