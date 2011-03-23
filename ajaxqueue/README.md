@@ -29,12 +29,24 @@ It can also be configured to force page actions to be synchronous, which is usef
 
 Tested on IE6-8, Chrome 9+, Firefox 3.5+
 
-## Minified Version
-[jquery.ajaxqueue.min.js](https://github.com/ZS/jquery.controls/raw/master/ajaxqueue/js/jquery.ajaxqueue.min.js)
+## Packed Version
+
+jquery.ajaxqueue depends on the Math.uuid library.
+
+If you choose jquery.ajaxqueue.pack.min.js, both plugins will be included as part of one file.
+
+[jquery.ajaxqueue.pack.min.js](https://github.com/ZS/jquery.controls/raw/master/ajaxqueue/js/jquery.ajaxqueue.pack.min.js)
+
+## Unpacked Version
+
+1. [jquery.ajaxqueue.min.js](https://github.com/ZS/jquery.controls/raw/master/ajaxqueue/js/jquery.ajaxqueue.min.js)
+2. [Math.uuid.min.js](https://github.com/ZS/jquery.controls/raw/master/ajaxqueue/js/Math.uuid.min.js)
 
 ## Debugging and Development Version
+
 This version contains all comments and header documentation.
 
-[jquery.ajaxqueue.chirp.js](https://github.com/ZS/jquery.controls/raw/master/ajaxqueue/js/jquery.ajaxqueue.chirp.js)
+1. [jquery.ajaxqueue.chirp.js](https://github.com/ZS/jquery.controls/raw/master/ajaxqueue/js/jquery.ajaxqueue.chirp.js)
+2. [Math.uuid.chirp.js](https://github.com/ZS/jquery.controls/raw/master/ajaxqueue/js/Math.uuid.chirp.js)
 
 
