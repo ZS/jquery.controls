@@ -5,6 +5,8 @@ It can also be configured to force page actions to be synchronous, which is usef
 
 # Demo
 
+* [Full page](http://jsfiddle.net/jookyboi/mNe9L/11/embedded/result/)
+* [JSFiddle](http://jsfiddle.net/jookyboi/mNe9L/11/)
 
 # Usage
 
