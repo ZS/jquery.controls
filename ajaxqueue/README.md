@@ -33,9 +33,7 @@ Tested on IE6-8, Chrome 9+, Firefox 3.5+
 
 ## Packed Version
 
-jquery.ajaxqueue depends on the Math.uuid library.
-
-If you choose jquery.ajaxqueue.pack.min.js, both plugins will be included as part of one file.
+jquery.ajaxqueue depends on the Math.uuid library. If you choose jquery.ajaxqueue.pack.min.js, both plugins will be included as part of one file.
 
 [jquery.ajaxqueue.pack.min.js](https://github.com/ZS/jquery.controls/raw/master/ajaxqueue/js/jquery.ajaxqueue.pack.min.js)
 
