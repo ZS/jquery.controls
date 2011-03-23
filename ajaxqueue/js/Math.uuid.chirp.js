@@ -1,4 +1,4 @@
-/*!
+﻿/*!
 Math.uuid.js (v1.4)
 http://www.broofa.com
 mailto:robert@broofa.com
