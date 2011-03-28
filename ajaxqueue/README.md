@@ -46,7 +46,7 @@ jquery.ajaxqueue depends on the Math.uuid library. If you choose jquery.ajaxqueu
 
 This version contains all comments and header documentation.
 
-1. [jquery.ajaxqueue.chirp.js](https://github.com/ZS/jquery.controls/raw/master/ajaxqueue/js/jquery.ajaxqueue.chirp.js)
-2. [Math.uuid.chirp.js](https://github.com/ZS/jquery.controls/raw/master/ajaxqueue/js/Math.uuid.chirp.js)
+1. [jquery.ajaxqueue.js](https://github.com/ZS/jquery.controls/raw/master/ajaxqueue/js/jquery.ajaxqueue.js)
+2. [Math.uuid..js](https://github.com/ZS/jquery.controls/raw/master/ajaxqueue/js/Math.uuid.js)
 
 

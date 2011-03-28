@@ -115,9 +115,9 @@ If something's gone horrible wrong in your app or you'd just like to contribute 
 
 ### Download
 
-1. [jquery.browserdetect.chirp.js](https://github.com/ZS/jquery.controls/raw/master/popup/js/jquery.browserdetect.chirp.js)
-2. [jquery.qtip.chirp.js](https://github.com/ZS/jquery.controls/raw/master/popup/js/jquery.qtip.chirp.js)
-3. [popup.chirp.js](https://github.com/ZS/jquery.controls/raw/master/popup/js/popup.chirp.js)
+1. [jquery.browserdetect.js](https://github.com/ZS/jquery.controls/raw/master/popup/js/jquery.browserdetect.js)
+2. [jquery.qtip.js](https://github.com/ZS/jquery.controls/raw/master/popup/js/jquery.qtip.js)
+3. [popup.js](https://github.com/ZS/jquery.controls/raw/master/popup/js/popup.js)
 
 
 
