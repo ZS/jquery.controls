@@ -6,8 +6,8 @@ Notifications integrates well with ajaxqueue to provide an indication of the # o
 
 # Demo
 
-[Full page](http://jsfiddle.net/jookyboi/udvaP/17/embedded/result/)
-[JSFiddle](http://jsfiddle.net/jookyboi/udvaP/17/)
+* [Full page](http://jsfiddle.net/jookyboi/udvaP/17/embedded/result/)
+* [JSFiddle](http://jsfiddle.net/jookyboi/udvaP/17/)
 
 # Usage
 
@@ -30,10 +30,10 @@ Tested on IE7-8, Chrome9+, Firefox 3.5+
 
 ## Minimized Version
 
-[jquery.notifications.min.js](https://github.com/ZS/jquery.controls/raw/master/notifications/js/jquery.notifications.min.js)
-[jquery.notifications.min.css](https://github.com/ZS/jquery.controls/raw/master/notifications/css/jquery.notifications.min.css)
+1. [jquery.notifications.min.js](https://github.com/ZS/jquery.controls/raw/master/notifications/js/jquery.notifications.min.js)
+2. [jquery.notifications.min.css](https://github.com/ZS/jquery.controls/raw/master/notifications/css/jquery.notifications.min.css)
 
 ## Debugging and Development Version
 
-[jquery.notifications.js](https://github.com/ZS/jquery.controls/raw/master/notifications/js/jquery.notifications.js)
-[jquery.notifications.css](https://github.com/ZS/jquery.controls/raw/master/notifications/css/jquery.notifications.css)
+1. [jquery.notifications.js](https://github.com/ZS/jquery.controls/raw/master/notifications/js/jquery.notifications.js)
+2. [jquery.notifications.css](https://github.com/ZS/jquery.controls/raw/master/notifications/css/jquery.notifications.css)
