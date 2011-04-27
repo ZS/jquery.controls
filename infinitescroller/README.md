@@ -6,8 +6,8 @@ Examples of one-way infinite scrollers include the Facebook Wall and Google Read
 
 # Demo
 
-* [Full page](http://jsfiddle.net/jookyboi/mSn6F/15/embedded/result/)
-* [JSFiddle](http://jsfiddle.net/jookyboi/mSn6F/15/)
+* [Full page](http://jsfiddle.net/jookyboi/mSn6F/16/embedded/result/)
+* [JSFiddle](http://jsfiddle.net/jookyboi/mSn6F/16/)
 
 # Usage
 
