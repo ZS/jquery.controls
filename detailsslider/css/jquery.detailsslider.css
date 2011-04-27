@@ -1,0 +1,22 @@
+.ui-slider-horizontal .ui-slider-handle
+{
+	background: #eee url("handle.gif") no-repeat 47% 30%;
+}
+
+.ui-slider-horizontal .notch
+{
+	position: absolute;
+	display: inline-block;
+	width: 1px;
+	height: 0.1em;
+	background-color: #999;
+	margin-top: 1px;
+}
+
+.slider-label
+{
+	margin-top: 5px;
+	font-size: 8pt;
+	color: #666;
+	position: absolute;
+}

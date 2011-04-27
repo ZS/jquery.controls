@@ -55,5 +55,5 @@ span#notificationsActiveImage
     display: inline-block;
     width: 18px;
     height: 18px;
-    background: url('Images/Notifications/spinner.gif');
+    background: url('spinner.gif');
 }
