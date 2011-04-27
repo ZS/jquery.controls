@@ -1,4 +1,4 @@
-﻿// uses knockoutjs: http://knockoutjs.com
+// uses knockoutjs: http://knockoutjs.com
 
 (function ($) {
     $.fn.extend({
